@@ -28,11 +28,23 @@ python setup.py develop
 ## Data Preparation
 Please follow the instructions in [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
 
-## Training and Testing
+## Testing
 You could optionally add extra command line parameters `--batch_size ${BATCH_SIZE}`, `${NUM_GPUS}` to specify your preferred parameters.
-Need to download the trained [model file](https://pan.baidu.com/s/1YIbqiRA_jnSwPc6GbmBMKg)[9n3i].
+
+If you want to test, you need to download the trained [model file](https://pan.baidu.com/s/1YIbqiRA_jnSwPc6GbmBMKg)[9n3i].
 * Test :
 ```shell
 python test.py --cfg_file ./tools/cfgs/kitti_models/pv_rcnn_pp.yaml --batch_size ${BATCH_SIZE} --ckpt ${CKPT}
 ```
-
+## Reference
+If you use OKGR in your research, please cite our work by using the following BibTeX entry:
+```shell
+@inproceedings{ji2023okgr,
+  title={OKGR: Occluded Keypoint Generation and Refinement for 3D Object Detection},
+  author={Ji, Mingqian and Yang, Jian and Zhang, Shanshan},
+  booktitle={Chinese Conference on Pattern Recognition and Computer Vision (PRCV)},
+  pages={3--15},
+  year={2023},
+  organization={Springer}
+}
+```
