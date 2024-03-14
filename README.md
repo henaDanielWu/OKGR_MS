@@ -57,8 +57,6 @@ If you use OKGR in your research, please cite our work by using the following Bi
   title={OKGR: Occluded Keypoint Generation and Refinement for 3D Object Detection},
   author={Ji, Mingqian and Yang, Jian and Zhang, Shanshan},
   booktitle={Chinese Conference on Pattern Recognition and Computer Vision (PRCV)},
-  pages={3--15},
-  year={2023},
-  organization={Springer}
+  year={2023}
 }
 ```
