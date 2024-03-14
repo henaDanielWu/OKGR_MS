@@ -26,7 +26,21 @@ python setup.py develop
 ```
 
 ## Data Preparation
-Please follow the instructions in [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
+### KITTI Dataset
+* Please download the official [KITTI 3D object detection](https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) dataset and organize the downloaded files as follows:
+```shell
+OKGR
+├── kitti
+│   │── ImageSets
+│   │── training
+│   │── testing
+├── pcdet
+├── tools
+```
+* Generate the data infos by running the following command:
+```shell
+python kitti_dataset.py
+```
 
 ## Testing
 You could optionally add extra command line parameters `--batch_size ${BATCH_SIZE}`, `${NUM_GPUS}` to specify your preferred parameters.
