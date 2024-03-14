@@ -32,7 +32,7 @@ Please follow the instructions in [OpenPCDet](https://github.com/open-mmlab/Open
 You could optionally add extra command line parameters `--batch_size ${BATCH_SIZE}`, `${NUM_GPUS}` to specify your preferred parameters.
 
 If you want to test, you need to download the trained [model file](https://pan.baidu.com/s/1YIbqiRA_jnSwPc6GbmBMKg)[9n3i].
-* Test :
+
 ```shell
 python test.py --cfg_file ./tools/cfgs/kitti_models/pv_rcnn_pp.yaml --batch_size ${BATCH_SIZE} --ckpt ${CKPT}
 ```
