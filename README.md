@@ -43,7 +43,7 @@ python kitti_dataset.py
 ```
 
 ## Testing
-You could optionally add extra command line parameters `--batch_size ${BATCH_SIZE}`, `${NUM_GPUS}` to specify your preferred parameters.
+You could optionally add extra command line parameters `--batch_size ${BATCH_SIZE}` to specify your preferred parameters.
 
 If you want to test, you need to download the trained [model file](https://pan.baidu.com/s/1YIbqiRA_jnSwPc6GbmBMKg) [extraction code: 9n3i] and place it in `./tools/`.
 
